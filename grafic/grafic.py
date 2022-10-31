@@ -1,3 +1,4 @@
+#a flower is created 
 from turtle import *
 
 color('red', 'yellow')
