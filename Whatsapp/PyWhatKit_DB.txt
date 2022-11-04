@@ -43,3 +43,13 @@ Time: 19:4
 Group ID: DyONhoQJFAoD4JOuNwN8TN
 Message: Python script, other test, Hi group, script pywhatkit
 --------------------
+Date: 31/10/2022
+Time: 19:9
+Group ID: DyONhoQJFAoD4JOuNwN8TN
+Message: Hola grupo linkl, https://github.com/JQS36/Python/tree/main/Whatsapp
+--------------------
+Date: 1/11/2022
+Time: 13:1
+Group ID: DyONhoQJFAoD4JOuNwN8TN
+Message: test python
+--------------------

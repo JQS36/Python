@@ -4,7 +4,7 @@ import keyboard as k
 import time
 
 def whatmsg(telef, notaw):
-  #w.sendwhatmsg_instantly(telef, notaw)
+  #w.sendwhatmsg_instantly(telef, notaw)# este manda solo a un contacto
   w.sendwhatmsg_to_group_instantly(telef, notaw)
   time.sleep(2)
   pyautogui.click()
@@ -13,5 +13,4 @@ def whatmsg(telef, notaw):
 
 msg = ["Hello, My dear family", "Good morning, Welcome to the city"]
 
-whatmsg("DyONhoQJFAoD4JOuNwN8TN", "Python script, other test, Hi group, script pywhatkit")
-
+whatmsg("DyONhoQJFAoD4JOuNwN8TN", "test python")
