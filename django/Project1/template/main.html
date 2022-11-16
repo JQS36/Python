@@ -1,0 +1,18 @@
+<html>
+    <body>
+        {% include "nav/navBarh.html" %}
+        <p>Welcome {{ name_person.upper }} {{last_name.lower}} to the Jungle Motherfuckers <br /> date {{date.year}} / {{date.month}} / {{date.day}}</p>
+        <p><strong>Themes: </strong></p>
+        <p>
+            <ul>
+                {% if themes %}
+                    {% for i in themes  %}
+                        <li>{{ i }}</li>
+                    {% endfor %}
+                {% else %}  
+                    <p>Not elements that show</p>
+                {% endif %}
+            </ul>
+        </p>
+    </body>
+</html>

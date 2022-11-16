@@ -22,22 +22,6 @@ head.penup()
 head.goto(0,0)
 head.direction = "stop"
 
-head1 = turtle.Turtle()
-head1.speed(0)
-head1.shape("square")
-head1.color("white")
-head1.penup()
-head1.goto(0,200)
-head1.direction = "stop"
-
-head1 = turtle.Turtle()
-head1.speed(0)
-head1.shape("square")
-head1.color("white")
-head1.penup()
-head1.goto(100,220)
-head1.direction = "stop"
-
 #eat
 eat = turtle.Turtle()
 eat.speed(0)
